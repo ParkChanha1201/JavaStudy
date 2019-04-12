@@ -1,6 +1,7 @@
 package network;
 
 import com.ggoreb.kakao_api.TranslateUtil;
+import com.ggoreb.kakao_api.VisionUtil;
 
 public class Network5 {
 	public static void main(String[] args) {
@@ -10,11 +11,11 @@ public class Network5 {
 		System.out.println(r);
 		
 		
-//		VisionUtil vu = new VisionUtil("0a7c5408897da72ef62213f279237f86");
+		VisionUtil vu = new VisionUtil("0a7c5408897da72ef62213f279237f86");
 		
-//		String result = vu.sendFile("C:/dev/a.jpg");
+		String result = vu.sendFile("C:/dev/a.jpg");
 		
-//		System.out.println(result);
+		System.out.println(result);
 		
 	
 	}
